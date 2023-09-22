@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: microservice-a
   description: Microservicea
+  annotations:
+    github.com/project-slug: https://github.com/Atamos/catalog
   tags:
     - mga
     - test
