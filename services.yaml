@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Service
+metadata:
+  name: microservice-a
+  description: Microservicea
+  tags:
+    - mga
+  links:
+    - url: gitlab/servicea
+      title: Repository
+      icon: repository
+    - url: argocd/servicea
+      title: Manifest
+      icon: gitops
+    - url: https://example.com/alert
+      title: Alerts
+      icon: alert
+spec:
+  type: service
+  lifecycle: experimental
+  owner: wsi
+  system: mga-microservices
