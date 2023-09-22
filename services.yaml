@@ -6,10 +6,10 @@ metadata:
   tags:
     - mga
   links:
-    - url: gitlab/servicea
+    - url: https://github.com/Atamos/catalog/edit/main/services.yaml
       title: Repository
       icon: repository
-    - url: argocd/servicea
+    - url: https://github.com/Atamos/catalog/edit/main/services.yaml
       title: Manifest
       icon: gitops
     - url: https://example.com/alert
