@@ -4,7 +4,7 @@ metadata:
   name: microservice-a
   description: Microservicea
   annotations:
-    github.com/project-slug: https://github.com/Atamos/catalog
+    github.com/project-slug: Atamos/catalog
   tags:
     - mga
     - test
