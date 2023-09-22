@@ -20,3 +20,28 @@ spec:
   lifecycle: experimental
   owner: wsi
   system: mga-microservices
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: microservice-b
+  description: Microserviceb
+  tags:
+    - mga
+  links:
+    - url: https://github.com/Atamos/catalog/edit/main/services.yaml
+      title: Repository
+      icon: repository
+    - url: https://github.com/Atamos/catalog/edit/main/services.yaml
+      title: Manifest
+      icon: gitops
+    - url: https://example.com/alert
+      title: Alerts
+      icon: alert
+spec:
+  type: service
+  lifecycle: experimental
+  owner: wsi
+  system: mga-microservices
